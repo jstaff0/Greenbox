@@ -69,7 +69,7 @@ nav ul li:hover{
 
 .headlines{
   position: relative;
-  background-color: rgba(7, 2, 10, .7);
+  background-color: rgba(255,255,255,1);
   font-size: 0;
   width:1000px;
   height: 275px;
@@ -84,15 +84,22 @@ figure{
 }
 
 figcaption{
-  background-color: rgba(1, 11, 2, .4);
+  background-color: rgba(215,215,215,.7);
   width:300px;
   font-size: 24px;
   font-family: Arial;
   text-align: left;
-  color: rgba(215, 215, 215, 1);
+  color: rgba(3, 11, 1, 1);
   position: absolute;
   bottom: 10px;
   padding: 5px;
   min-height: 60px;
   overflow:hidden;
+}
+
+.main-content{
+  positon:relative;
+  width:1000px;
+  height:100%;
+  background-color: rgba(215,215,215,.7);
 }
