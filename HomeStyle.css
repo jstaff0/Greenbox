@@ -17,13 +17,14 @@ html{
     background-size: cover;
 
 }
-
+body{
+  margin: 0px;
+}
 nav{
-    position:absolute;
-    Top:5px;
-    left:0px;
+    
+    
     width: 100%;
-    background-color:rgba(1,11,3,0.7);
+    background-color:rgba(0, 46, 0, 0.9);
     padding-top:20px;
     padding-bottom:20px;
 }
@@ -46,7 +47,7 @@ nav ul li{
 
 nav ul li:hover{
     font-style:oblique;
-    background-color:rgba(150,150,150,0.4);
+    background-color:rgba(150,150,150, 0.4);
 }
 
 .icon{
@@ -55,51 +56,55 @@ nav ul li:hover{
     left:15px;
   }
 
-
-
-.storyboard{
-  display: block;
-  position:absolute;
-  top:100px;
+main{
+  position:relative;
   left:0px;
-  background-color: rgba(57, 30, 71, 0.4);
+  background-color: rgba(193, 183, 198, 0.4);
   height:800px;
   width:100%;
 }
 
 .headlines{
   position: relative;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(113, 181, 113, 1);
   font-size: 0;
-  width:1000px;
-  height: 275px;
+  max-width:1000px;
   margin: 0 auto;
 }
-figure{
-  margin:auto;
+
+a{
+    text-decoration: none;
 }
+
 .hlarticle{
-  margin-left: 25px;
+  margin:0;
+  margin-left: 20px;
+  margin-top: 20px;
   display: inline-block;
 }
 
 figcaption{
-  background-color: rgba(215,215,215,.7);
+  background-color: rgba(203, 221, 203,.7);
   width:300px;
   font-size: 24px;
   font-family: Arial;
   text-align: left;
   color: rgba(3, 11, 1, 1);
-  position: absolute;
-  bottom: 10px;
+  position: relative;
+  bottom: 90px;
   padding: 5px;
   min-height: 60px;
   overflow:hidden;
 }
 
-.main-content{
-  positon:relative;
-  width:1000px;
-  height:100%;
+main-content{
+  position:relative;
+  max-width:1000px;
+  height:1000px;
+  margin: 0 auto;
   background-color: rgba(215,215,215,.7);
+}
+
+article{
+
 }
