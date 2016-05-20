@@ -73,7 +73,8 @@ main{
 }
 
 a{
-    text-decoration: none;
+  text-decoration: none;
+  display:inline;
 }
 
 .hlarticle{
@@ -83,17 +84,21 @@ a{
   display: inline-block;
 }
 
+.hlimage{
+  
+}
+
 figcaption{
   background-color: rgba(203, 221, 203,.7);
-  width:300px;
   font-size: 24px;
   font-family: Arial;
   text-align: left;
   color: rgba(3, 11, 1, 1);
-  position: relative;
-  bottom: 90px;
+  position: absolute;
+  width:300px;
+  bottom: 30px;
   padding: 5px;
-  min-height: 60px;
+  min-height: 70px;
   overflow:hidden;
 }
 
@@ -102,7 +107,7 @@ main-content{
   max-width:1000px;
   height:1000px;
   margin: 0 auto;
-  background-color: rgba(215,215,215,.7);
+  background-color: rgba(215,215,215,1);
 }
 
 article{
