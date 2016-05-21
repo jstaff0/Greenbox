@@ -58,7 +58,7 @@ main{
   position:relative;
   left:0px;
   background-color: rgba(193, 183, 198, 0.4);
-  height:800px;
+  height:auto;
   width:100%;
   text-align: center;
 }
@@ -70,7 +70,7 @@ main{
   display: inline-block;
   min-width: 300px;
   padding-right: 25px;
-  margin: auto;
+  /*margin: auto;*/
 }
 
 a{
@@ -78,19 +78,19 @@ a{
 }
 
 .hlarticle{
+  position: relative;
   margin:0px;
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   display: inline-block;
-  position: relative;
 }
 
 .hlimage{
   
 }
 
-figcaption{
+.hlspan{
   background-color: rgba(203, 221, 203,.7);
   font-size: 24px;
   font-family: Arial;
@@ -108,10 +108,33 @@ figcaption{
   position:relative;
   max-width:1000px;
   height:1000px;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 0px;
+  background-color: rgba(7, 2, 10, 0.4);
+  font-size: 0;
+}
+
+.main-article{
+  position: relative;
+  height:200px;
+  margin:0;
+  margin-top: 10px;
+  margin-bottom: 20px;
   background-color: rgba(215,215,215,1);
 }
 
-article{
-
+.mainspan{
+  /*background-color: rgba(203, 221, 203,.7);*/
+  font-size: 24px;
+  font-family: Arial;
+  text-align: left;
+  color: rgba(3, 11, 1, 1);
+  position: relative;
+  /*width:300px;*/
+  /*bottom: 10px;*/
+  padding: 5px;
+  padding-left: 100px;
+  min-height: 60px;
+  overflow:hidden;
+}
 }
