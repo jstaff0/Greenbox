@@ -19,21 +19,29 @@ html{
 }
 body{
   margin: 0px;
+  height: 100%;
 }
+
+a{
+  text-decoration: none;
+}
+
 nav{
   width: 100%;
   background-color:rgba(0, 46, 0, 0.9);
-  padding-top:20px;
-  padding-bottom:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  height: 25px;
 }
-
 nav ul{
   text-align:right;
+  top:0px;
+  margin:0px;
 
   }
 nav ul li{
   display:inline;
-  padding: 20px;
+  padding: 10px;
   text-transform: uppercase;
   font-family:Arial;
   font-weight: normal;
@@ -42,7 +50,6 @@ nav ul li{
   word-spacing:25px;
   color: #FFFFFF;
 }
-
 nav ul li:hover{
   font-style:oblique;
   background-color:rgba(150,150,150, 0.4);
@@ -50,7 +57,7 @@ nav ul li:hover{
 
 .icon{
   position:absolute;
-  top:25px;
+  top:0px;
   left:15px;
   }
 
@@ -65,30 +72,29 @@ main{
 
 .headlines{
   position: relative;
-  background-color: rgba(113, 181, 113, 1);
+  /*background-color: rgba(113, 181, 113, 1);*/
+  background-color: rgba(45, 134, 51, 1);
   font-size: 0;
   display: inline-block;
   min-width: 300px;
-  padding-right: 25px;
-  /*margin: auto;*/
-}
-
-a{
-  text-decoration: none;
+  padding-right: 40px;
+  z-index: 1;
 }
 
 .hlarticle{
   position: relative;
   margin:0px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-bottom: -20px;
+  top:20px;
   display: inline-block;
+  background-color: rgba(107, 78, 124, .7);
 }
 
-.hlimage{
-  
-}
+.hlimage{  
+  position: relative;
+  bottom:10px;
+  right:10px;}
 
 .hlspan{
   background-color: rgba(203, 221, 203,.7);
@@ -97,7 +103,7 @@ a{
   text-align: left;
   color: rgba(3, 11, 1, 1);
   position: absolute;
-  width:300px;
+  width:310px;
   bottom: 30px;
   padding: 5px;
   min-height: 70px;
@@ -105,36 +111,44 @@ a{
 }
 
 .main-content{
-  position:relative;
-  max-width:1000px;
-  height:1000px;
+  position: relative;
+  max-width:1060px;
+  height: auto;
   margin: auto;
   margin-top: 0px;
-  background-color: rgba(7, 2, 10, 0.4);
+  padding-top: 25px;
+  background-color: rgba(113, 181, 113, 1);
   font-size: 0;
+  text-align: left;
+
 }
 
 .main-article{
   position: relative;
   height:200px;
-  margin:0;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  background-color: rgba(215,215,215,1);
+  width: 1000px;
+  margin:30px auto;
+  background-color: rgba(107, 78, 124, .7);
+}
+
+.mainimage{
+  position: relative;
+  bottom:10px;
+  right:10px;
 }
 
 .mainspan{
-  /*background-color: rgba(203, 221, 203,.7);*/
+  background-color: rgba(203, 221, 203,.7);
   font-size: 24px;
   font-family: Arial;
   text-align: left;
   color: rgba(3, 11, 1, 1);
-  position: relative;
-  /*width:300px;*/
-  /*bottom: 10px;*/
+  position: absolute;
+  width:1000px;
+  top: 50px;
   padding: 5px;
-  padding-left: 100px;
-  min-height: 60px;
+  margin-left: 10px;
+  min-height: 150px;
   overflow:hidden;
 }
 }
