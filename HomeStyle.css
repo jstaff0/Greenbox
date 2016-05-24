@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }*/
 
+*{
+  margin:0px;
+  padding:0px;
+}
+
 html{
     background-image: url('Images/splash.jpg');
     background-repeat:no-repeat;
@@ -64,7 +69,8 @@ nav ul li:hover{
 main{
   position:relative;
   left:0px;
-  background-color: rgba(193, 183, 198, 0.4);
+  /*background-color: rgba(203, 221, 203, 1);*/
+  background-color: rgba(193, 183, 198, .4);
   height:auto;
   width:100%;
   text-align: center;
@@ -72,8 +78,8 @@ main{
 
 .headlines{
   position: relative;
-  /*background-color: rgba(113, 181, 113, 1);*/
-  background-color: rgba(45, 134, 51, 1);
+  background-color: rgba(0, 0, 0, 0);
+  /*background-color: rgba(45, 134, 51, 1);*/
   font-size: 0;
   display: inline-block;
   min-width: 300px;
@@ -117,7 +123,9 @@ main{
   margin: auto;
   margin-top: 0px;
   padding-top: 25px;
-  background-color: rgba(113, 181, 113, 1);
+  /*background-color: rgba(0, 0, 0, 0);*/
+  /*background-color: rgba(113, 181, 113, 1);*/
+  background-color: rgba(203, 221, 203, 1);
   font-size: 0;
   text-align: left;
 
