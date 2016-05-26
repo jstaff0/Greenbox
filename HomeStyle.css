@@ -1,5 +1,5 @@
 *{
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
   margin:0;
 }
 
@@ -31,7 +31,7 @@ nav{
   width: 100%;
   height: 60px;
   line-height: 60px;
-  background-color:rgba(0, 46, 0, 0.85);
+  background-color:rgba(0, 46, 0, 0.75);
 }
 
 .icon{
@@ -72,10 +72,8 @@ main{
 .headlines{
   display: inline-block;
   min-width: 300px;
-  height: 100%px;
+  /*height: 100%px;*/
   padding: 15px;
-  /*padding-right: 40px;*/
-  z-index: 1;
   /*background-color: rgba(0, 0, 0, 0);*/
   background-color: rgba(45, 134, 51, 1);
   font-size: 0;
@@ -84,29 +82,29 @@ main{
 .hlarticle{
   position:relative;
   margin:20px;
-  /*margin-left: 40px;*/
   border: 25px solid rgba(246, 233, 254, 1);;
   display: inline-block;
   background-color: rgba(107, 78, 124, .7);
 }
 
 .hlimage{  
-  box-shadow: 5px 10px 25px 5px rgba(107, 78, 124, .7);
+  box-shadow: 5px 5px 25px 0px rgba(107, 78, 124, .7);
 }
 
 .hlspan{
-  /*background-color: rgba(203, 221, 203,.7);*/
-  background-color: rgba(246, 233, 254, .7);
-  font-size: 24px;
-  font-family: Arial;
-  text-align: left;
-  color: rgba(3, 11, 1, 1);
   position: absolute;
   width:310px;
   bottom: 30px;
   padding: 5px;
   min-height: 70px;
-  overflow:hidden;
+  text-align: left;
+  overflow:hidden;  
+  font-size: 24px;
+  font-family: Arial;
+  color: rgba(3, 11, 1, 1);
+  background-color: rgba(203, 221, 203,.7);
+  /*background-color: rgba(246, 233, 254, .7);*/
+  
 }
 
 .main-content{
