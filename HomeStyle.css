@@ -71,8 +71,6 @@ main{
 
 .headlines{
   display: inline-block;
-  min-width: 300px;
-  /*height: 100%px;*/
   padding: 15px;
   /*background-color: rgba(0, 0, 0, 0);*/
   background-color: rgba(45, 134, 51, 1);
@@ -81,14 +79,15 @@ main{
 
 .hlarticle{
   position:relative;
+  display: inline-block;
   margin:20px;
   border: 25px solid rgba(246, 233, 254, 1);;
-  display: inline-block;
-  background-color: rgba(107, 78, 124, .7);
+  /*background-color: rgba(107, 78, 124, .7);*/
 }
 
 .hlimage{  
   box-shadow: 5px 5px 25px 0px rgba(107, 78, 124, .7);
+  max-width: 100%
 }
 
 .hlspan{
@@ -109,45 +108,41 @@ main{
 
 .main-content{
   position: relative;
-  max-width:1060px;
-  height: auto;
-  margin: auto;
-  margin-top: 0px;
-  padding-top: 0px;
+  display: inline-block;
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 12.5px;
+  font-size: 0;
   /*background-color: rgba(0, 0, 0, 0);*/
   background-color: rgba(116, 168, 119, 1);
   /*background-color: rgba(203, 221, 203, 1);*/
-  font-size: 0;
-  text-align: left;
-
-}
+}  
 
 .main-article{
   position: relative;
-  height:200px;
-  width: 1000px;
-  margin:50px auto;
-  background-color: rgba(107, 78, 124, .7);
+  display: inline-block;
+  margin:25px auto;
+  /*background-color: rgba(107, 78, 124, .7);*/
 }
 
 .mainimage{
-  position: relative;
-  bottom:10px;
-  right:10px;
+  box-shadow: 5px 5px 25px 0px rgba(107, 78, 124, .7);
+  max-width: 100%;
 }
 
 .mainspan{
-  background-color: rgba(203, 221, 203,.7);
+  position: absolute;
+  width:100%;
+  bottom:0px;
+  padding: 10px;
+  margin-left: 0px;
+  min-height: 75%;
+  overflow:hidden;
   font-size: 24px;
   font-family: Arial;
   text-align: left;
   color: rgba(3, 11, 1, 1);
-  position: absolute;
-  width:1000px;
-  top: 50px;
-  padding: 5px;
-  margin-left: 10px;
-  min-height: 150px;
-  overflow:hidden;
+  background-color: rgba(203, 221, 203,.7);
 }
 }
